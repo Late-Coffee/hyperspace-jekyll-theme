@@ -9,9 +9,9 @@ title: Hyperspace by HTML5 UP
 		<nav>
 			<ul>
 				<li><a href="#intro">About</a></li>
-				<li><a href="#one">Memorandum</a></li>
+				<li><a href="#one">Memorandum</a></li><br/>
 				<li><a href="elements.html">Glossary</a></li>
-				<li>Contact us at email@email.world</li>
+				<li>Contact us at contact@internation.world</li>
 			</ul>
 		</nav>
 	</div>
@@ -27,17 +27,24 @@ title: Hyperspace by HTML5 UP
 		<p>On the 100th anniversary of the League of Nations (Friday, 10 January 2020), we hope to launch a discussion in Geneva, at the level of the United Nations, on the economic challenges of the Anthropocene. This event, the 100th anniversary of the League of Nations in January 2020, will consist in an official submission to the UN of a Memorandum articulating the scientific, legal, political, technological and economic issues, and doing so with respect to a concept developed by Marcel Mauss (1920) in the context of the creation of the League of Nations. 
 
 The concept of “nation” in the League of Nations was rejected by the Socialist International in the name of “proletarian internationalism”. In this debate, Mauss distinguished his position by arguing that the nation cannot be dissolved into the international, and by proposing to refer to the internation rather than to internationalism.
-
-In a context where irresponsible globalization is today giving rise to regressive social reactions based on fictional scapegoats, we believe that there is no answer other than to genuinely address the challenges of the Anthropocene, whose toxicity has resulted in an irrational economic organization incapable of rethinking economics and the economy.
 </p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button scrolly">Learn more</a></li>
+			<li><a href="about_us.html" class="button scrolly">Learn more</a></li>
 		</ul>
 	</div>
 </section>
 
 <!-- One -->
-<section id="one" class="wrapper style2 spotlights">
+<section id="one" class="wrapper style1 fullscreen fade-up">
+	<div class="inner">
+		<h1>Memorandum</h1>
+		<p></p>
+		<ul class="actions">
+			<li><a href="memorandum.html" class="button scrolly">Learn more</a></li>
+		</ul>
+	</div>
+</section>
+<!-- <section id="one" class="wrapper style2 spotlights">
 	<section>
 		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
@@ -74,10 +81,10 @@ In a context where irresponsible globalization is today giving rise to regressiv
 			</div>
 		</div>
 	</section>
-</section>
+</section> -->
 
 <!-- Two -->
-<section id="two" class="wrapper style3 fade-up">
+<!-- <section id="two" class="wrapper style3 fade-up">
 	<div class="inner">
 		<h2>What we do</h2>
 		<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
@@ -117,4 +124,4 @@ In a context where irresponsible globalization is today giving rise to regressiv
 			<li><a href="#" class="button">Learn more</a></li>
 		</ul>
 	</div>
-</section>
+</section> -->
