@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hyperspace by HTML5 UP
+title: Memorandum of Understanding
 ---
 
 <!-- Sidebar -->
@@ -10,7 +10,7 @@ title: Hyperspace by HTML5 UP
 			<ul>
 				<li><a href="#intro">About</a></li>
 				<li><a href="#one">Memorandum</a></li><br/>
-				<li><a href="elements.html">Glossary</a></li>
+				<li><a href="glossary.html">Glossary</a></li>
 				<li>Contact us at contact@internation.world</li>
 			</ul>
 		</nav>
