@@ -6,11 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Memorandum of Understanding
+title: Geneva2020
 email: 
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "internation" # the base hostname & protocol for your site
+
+navigation:
+ - title: About
+   url: /about.html
+ - title: Memorandum
+   url: /memorandum.html
+ - title: Members
+   url: /members.html
+ - title: Glossary
+   url: /glossary.html
 
 # Social settings
 500px_url: 
@@ -37,3 +47,11 @@ facebook:
   admins: 
 logo:
 google_site_verification: 
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "fr"]
+
+sass:
+  style: compressed

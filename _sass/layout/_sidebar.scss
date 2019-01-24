@@ -11,11 +11,12 @@
 		background: _palette(bg);
 		cursor: default;
 		height: 100vh;
+		width: 15em;
 		left: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: _size(sidebar-width);
 		z-index: _misc(z-index-base);
@@ -68,17 +69,18 @@
 			a {
 				@include vendor('transition', 'color #{_duration(transition)} ease');
 				border: 0;
+				border-radius: 0.5em;
 				color: _palette(fg-light);
 				display: block;
-				font-size: 0.6em;
-				font-weight: _font(weight-bold);
+				font-size: 0.9em;
+				font-weight: _font(weight-thin);
 				letter-spacing: _font(kerning-alt);
-				line-height: 1.75;
+				line-height: 1.25;
 				outline: 0;
 				padding: 1.35em 0;
 				position: relative;
 				text-decoration: none;
-				text-transform: uppercase;
+				// text-transform: uppercase;
 
 				&:before,
 				&:after {
@@ -87,7 +89,7 @@
 					content: '';
 					height: 0.2em;
 					position: absolute;
-					right: 0;
+					left: 0;
 					width: 100%;
 				}
 

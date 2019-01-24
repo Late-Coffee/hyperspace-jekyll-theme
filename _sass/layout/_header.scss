@@ -37,6 +37,9 @@
 					&:first-child {
 						margin-left: 0;
 					}
+					&.current a {
+						color: _palette(fg-bold);
+					}
 
 					a {
 						border: 0;

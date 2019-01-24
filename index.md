@@ -3,20 +3,6 @@ layout: default
 title: Memorandum of Understanding
 ---
 
-<!-- Sidebar -->
-<section id="sidebar">
-	<div class="inner">
-		<nav>
-			<ul>
-				<li><a href="#intro">About</a></li>
-				<li><a href="#one">Memorandum</a></li><br/>
-				<li><a href="glossary.html">Glossary</a></li>
-				<li>Contact us at contact@internation.world</li>
-			</ul>
-		</nav>
-	</div>
-</section>
-
 <!-- Wrapper -->
 <div id="wrapper">
 
@@ -29,7 +15,7 @@ title: Memorandum of Understanding
 The concept of “nation” in the League of Nations was rejected by the Socialist International in the name of “proletarian internationalism”. In this debate, Mauss distinguished his position by arguing that the nation cannot be dissolved into the international, and by proposing to refer to the internation rather than to internationalism.
 </p>
 		<ul class="actions">
-			<li><a href="about_us.html" class="button scrolly">Learn more</a></li>
+			<li><a href="about.html" class="button scrolly">Learn more</a></li>
 		</ul>
 	</div>
 </section>
@@ -44,6 +30,18 @@ The concept of “nation” in the League of Nations was rejected by the Sociali
 		</ul>
 	</div>
 </section>
+
+<!-- Two -->
+<section id="two" class="wrapper style1 fullscreen fade-up">
+	<div class="inner">
+		<h1>Members</h1>
+		<p></p>
+		<ul class="actions">
+			<li><a href="members.html" class="button scrolly">Learn more</a></li>
+		</ul>
+	</div>
+</section>
+
 <!-- <section id="one" class="wrapper style2 spotlights">
 	<section>
 		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
