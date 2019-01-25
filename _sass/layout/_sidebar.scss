@@ -8,7 +8,7 @@
 
 	#sidebar {
 		@include padding(2.5em, 2.5em);
-		background: _palette(bg);
+		background: _palette(accent5);
 		cursor: default;
 		height: 100vh;
 		width: 15em;
@@ -47,7 +47,7 @@
 					@include vendor('transform', 'translateY(0)');
 					@include vendor('transition', (
 						'opacity #{_duration(activation) * 0.15} ease',
-						'transform #{_duration(activation) * 0.75} ease'
+						'transform #{_duration(activation) * 0.50} ease'
 					));
 					margin: 1.5em 0 0 0;
 					opacity: 1;
@@ -57,10 +57,18 @@
 					&:first-child {
 						margin: 0;
 					}
+					&:last-child {
+						margin-top: 10em;
+						text-transform: uppercase;
+						&:hover {
+							color: _palette(fg-bold);
+						}
+
+					}
 
 					@for $i from 1 through _misc(max-sidebar-links) {
 						&:nth-child(#{$i}) {
-							@include vendor('transition-delay', '#{(_duration(activation) * 0.2 * $i) + (_duration(activation) * 0.25)}');
+							@include vendor('transition-delay', '#{(_duration(activation) * 0.2 * $i) + (_duration(activation) * 0.15)}');
 						}
 					}
 				}
@@ -80,6 +88,7 @@
 				padding: 1.35em 0;
 				position: relative;
 				text-decoration: none;
+				width: 50%;
 				// text-transform: uppercase;
 
 				&:before,
@@ -95,10 +104,11 @@
 
 				&:before {
 					background: lighten(_palette(bg), 5);
+					width: 50%;
 				}
 
 				&:after {
-					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent4)}, #{_palette(accent5)})');
 					@include vendor('transition', 'max-width #{_duration(transition)} ease');
 					max-width: 0;
 				}
@@ -109,9 +119,10 @@
 
 				&.active {
 					color: _palette(fg-bold);
+					width: 75%;
 
 					&:after {
-						max-width: 100%;
+						max-width: 50%;
 					}
 				}
 			}
@@ -147,6 +158,8 @@
 				@include vendor('align-items', 'stretch');
 				height: inherit;
 				line-height: inherit;
+				justify-content: flex-start;
+				padding-left: 2em;
 			}
 
 			nav {
@@ -165,6 +178,12 @@
 						line-height: inherit;
 						margin: 0 0 0 2em;
 						padding: 0;
+
+						&:last-child {
+							margin-top: 0;
+							// margin-left: 10em;
+							justify-content: flex-end;
+						}
 					}
 				}
 

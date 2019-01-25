@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Memorandum of Understanding
+title: Geneva2020
 ---
 
 <!-- Wrapper -->
@@ -9,11 +9,9 @@ title: Memorandum of Understanding
 <!-- Intro -->
 <section id="intro" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
-		<h1>Geneva 2020</h1>
-		<p>On the 100th anniversary of the League of Nations (Friday, 10 January 2020), we hope to launch a discussion in Geneva, at the level of the United Nations, on the economic challenges of the Anthropocene. This event, the 100th anniversary of the League of Nations in January 2020, will consist in an official submission to the UN of a Memorandum articulating the scientific, legal, political, technological and economic issues, and doing so with respect to a concept developed by Marcel Mauss (1920) in the context of the creation of the League of Nations. 
-
-The concept of “nation” in the League of Nations was rejected by the Socialist International in the name of “proletarian internationalism”. In this debate, Mauss distinguished his position by arguing that the nation cannot be dissolved into the international, and by proposing to refer to the internation rather than to internationalism.
-</p>
+		<h1>TOWARDS THE INTERNATION</h1>
+		<p>For the century of the League of Nations wich will happen on Friday 10th January 2020, we want to launch a discussion at the level of the United Nations, in order to create an internation : an agreement between different localities working together in order to invent and to experiment a new macro-economic model likely to address the challenges of the Anthropocene.
+		</p>
 		<ul class="actions">
 			<li><a href="about.html" class="button scrolly">Learn more</a></li>
 		</ul>
@@ -23,10 +21,10 @@ The concept of “nation” in the League of Nations was rejected by the Sociali
 <!-- One -->
 <section id="one" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
-		<h1>Memorandum</h1>
+		<h1>MEMORANDUM</h1>
 		<p></p>
 		<ul class="actions">
-			<li><a href="memorandum.html" class="button scrolly">Learn more</a></li>
+			<li><a href="memorandum.html" class="button scrolly">Read the memorandum</a></li>
 		</ul>
 	</div>
 </section>
@@ -34,13 +32,14 @@ The concept of “nation” in the League of Nations was rejected by the Sociali
 <!-- Two -->
 <section id="two" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
-		<h1>Members</h1>
+		<h1>MEMBERS</h1>
 		<p></p>
 		<ul class="actions">
 			<li><a href="members.html" class="button scrolly">Learn more</a></li>
 		</ul>
 	</div>
 </section>
+</div>
 
 <!-- <section id="one" class="wrapper style2 spotlights">
 	<section>

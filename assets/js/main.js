@@ -18,7 +18,7 @@
 
 		var	$window = $(window),
 			$body = $('body'),
-			$sidebar = $('#sidebar');
+			$sidebar = $('#sidebar, #sidebar_memo');
 
 		// Hack: Enable IE flexbox workarounds.
 			if (skel.vars.IEVersion < 12)

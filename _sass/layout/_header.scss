@@ -10,7 +10,7 @@
 		@include vendor('display', 'flex');
 		background-color: _palette(accent1);
 		cursor: default;
-		padding: 1.75em 2em;
+		padding: .25em 1em;
 
 		> .title {
 			border: 0;
@@ -23,7 +23,7 @@
 		> nav {
 			@include vendor('flex', '1');
 			text-align: right;
-
+			
 			> ul {
 				margin: 0;
 				padding: 0;
@@ -39,13 +39,16 @@
 					}
 					&.current a {
 						color: _palette(fg-bold);
+						&:hover {
+							color: _palette(fg-bold);
+						}
 					}
 
 					a {
 						border: 0;
 						color: _palette(fg-light);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: .75em;
 						font-weight: _font(weight-bold);
 						letter-spacing: _font(kerning-alt);
 						text-transform: uppercase;
@@ -54,9 +57,9 @@
 							color: _palette(fg);
 						}
 
-						&.active {
-							color: _palette(fg-bold);
-						}
+						// &.active {
+						// 	color: _palette(fg-bold);
+						// }
 					}
 				}
 			}
