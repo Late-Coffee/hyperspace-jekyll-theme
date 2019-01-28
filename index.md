@@ -10,8 +10,6 @@ navigation:
    url: '#one'
  - title: Members
    url: '#two'
- - title: Glossary
-   url: /glossary.html
 ---
 
 <!-- Wrapper -->
