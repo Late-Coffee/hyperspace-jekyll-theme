@@ -1,4 +1,4 @@
-<section id="sidebar">
+{% comment %} <section id="sidebar">
 	<div class="inner">
 		<nav>
 			<ul>
@@ -6,7 +6,24 @@
 				<li><a href="#one">Memorandum</a></li>
 				<li><a href="#two">Members</a></li>
 				<li><a href="glossary.html">Glossary</a></li>
-				{% comment %} <li>Contact us at contact@internation.world</li> {% endcomment %}
+			    <li>Contact us at contact@internation.world</li>
+		</nav>
+	</div>
+</section> {% endcomment %}
+
+<section id="sidebar">
+	<div class="inner">
+		<nav>
+			<ul>
+			{% for link in page.navigation %}
+				{% assign current = nil %}
+				{% if page.url contains link.url %}
+					{% assign current = 'current' %}
+				{% endif %}
+				<li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+					<a href="{{ link.url }}">{{ link.title }}</a>
+				</li>
+			{% endfor %}
 			</ul>
 		</nav>
 	</div>
