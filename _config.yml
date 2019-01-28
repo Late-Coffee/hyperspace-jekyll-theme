@@ -50,9 +50,7 @@ logo:
 google_site_verification: 
 
 plugins:
-  - jekyll-multiple-languages-plugin
-
-languages: ["en", "fr"]
+  - jekyll-admin
 
 sass:
   style: compressed

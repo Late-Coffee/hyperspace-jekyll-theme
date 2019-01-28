@@ -1,6 +1,17 @@
 ---
 layout: default
 title: Geneva2020
+
+# Sidebar navigation menu
+navigation:
+ - title: About
+   url: '#intro'
+ - title: Memorandum
+   url: '#one'
+ - title: Members
+   url: '#two'
+ - title: Glossary
+   url: /glossary.html
 ---
 
 <!-- Wrapper -->

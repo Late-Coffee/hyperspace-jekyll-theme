@@ -1,6 +1,21 @@
 ---
 layout: memorandum
 title: Memorandum of Understanding
+
+navigation:
+ - title: 1. Anthropocene, exosomatization and negentropy
+   url: '#intro'
+   content: testetstes
+ - title: '2. Carbon and silicon: contribution to a critique of political economy'
+   url: '#one'
+ - title: 3. Infrasomatization, Really Smart Cities and urban metabolism
+   url: '#two'
+ - title: 4. POV and Locality
+   url: '#three'
+ - title: '5. Social sculpture and contributive research: knowledge, art and technology'
+   url: '#four'
+ - title: 6. Contributory economy or economy of contribution
+   url: '#five'
 ---
 
 <!-- Wrapper -->
@@ -12,7 +27,7 @@ title: Memorandum of Understanding
 		<h1>Anthropocene, exosomatization and negentropy</h1>
 		<p></p>
 	</div>
-</section>
+</section> 
 
 <!-- One -->
 <section id="one" class="wrapper style1 fullscreen fade-up">
@@ -30,7 +45,7 @@ title: Memorandum of Understanding
 	</div>
 </section>
 
-<!-- Two -->
+<!-- Three -->
 <section id="three" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
 		<h1 class="major">POV and locality By Mitra Azar</h1>
@@ -132,4 +147,4 @@ title: Memorandum of Understanding
 	</div>
 </section>
 
-</div>
+</div> 
