@@ -9,7 +9,7 @@
 title: Geneva2020
 email: 
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://late-coffee.github.io/hyperspace-jekyll-theme/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Navigation menu
