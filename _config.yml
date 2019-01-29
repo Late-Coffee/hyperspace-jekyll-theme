@@ -15,13 +15,13 @@ url: "https://late-coffee.github.io/" # the base hostname & protocol for your si
 # Navigation menu
 navigation:
  - title: About
-   url: /about.html
+   url: about.html
  - title: Memorandum
-   url: /memorandum.html
+   url: memorandum.html
  - title: Members
-   url: /members.html
+   url: members.html
  - title: Glossary
-   url: /glossary.html
+   url: glossary.html
 
 # Social settings
 500px_url: 
