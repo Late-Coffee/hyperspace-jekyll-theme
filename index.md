@@ -11,7 +11,7 @@ navigation:
  - title: Members
    url: '#two'
  - title: Glossary
-   url: '/glossary.html'
+   url: 'glossary.html'
 ---
 
 <!-- Wrapper -->
