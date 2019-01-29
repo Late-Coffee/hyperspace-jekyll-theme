@@ -14,10 +14,19 @@
 
 		> .title {
 			border: 0;
+			position:fixed;
 			color: _palette(fg-bold);
+			opacity: 0.2;
 			display: block;
-			font-size: 1.25em;
+			font-size: 1.50em;
 			font-weight: _font(weight-bold);
+			z-index: 1000000;
+			&:hover {
+				opacity: 1;
+			}
+			@include breakpoint(small) {
+				position: relative;
+			}
 		}
 
 		> nav {
@@ -67,6 +76,7 @@
 
 		@include breakpoint(small) {
 			padding: 1em 2em;
+			
 		}
 
 		@include breakpoint(xsmall) {

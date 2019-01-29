@@ -19,11 +19,23 @@
 			}
 
 			@include breakpoint(large) {
-				width: 100%;
+				max-width: 75%;
+				margin-top: 0;
+				margin-left: 25%;
 			}
 
 			@include breakpoint(small) {
 				@include padding(3em, 2em);
+				max-width: 100%;
+				margin-left: 0;
+			}
+			&.memo > p {
+				max-width: 50%;
+				text-align: justify;
+				@include breakpoint(small) {
+					max-width: 100%;
+					text-align: left;
+				}
 			}
 		}
 

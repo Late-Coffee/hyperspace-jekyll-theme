@@ -4,50 +4,50 @@ title: Memorandum of Understanding
 
 navigation:
  - title: 1. Anthropocene, exosomatization and negentropy
-   url: '#intro'
+   url: '#one'
    content: testetstes
  - title: '2. Carbon and silicon: contribution to a critique of political economy'
-   url: '#one'
- - title: 3. Infrasomatization, Really Smart Cities and urban metabolism
    url: '#two'
- - title: 4. POV and Locality
+ - title: 3. Infrasomatization, Really Smart Cities and urban metabolism
    url: '#three'
- - title: '5. Social sculpture and contributive research: knowledge, art and technology'
+ - title: 4. POV and Locality
    url: '#four'
- - title: 6. Contributory economy or economy of contribution
+ - title: '5. Social sculpture and contributive research: knowledge, art and technology'
    url: '#five'
+ - title: 6. Contributory economy or economy of contribution
+   url: '#six'
 ---
 
 <!-- Wrapper -->
 <div id="wrapper">
 
-<!-- Intro -->
-<section id="intro" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
+<!-- Chapter 1 -->
+<section id="one" class="wrapper style1 fullscreen fade-up">
+	<div class="inner memo">
 		<h1>Anthropocene, exosomatization and negentropy</h1>
 		<p></p>
 	</div>
 </section> 
 
-<!-- One -->
-<section id="one" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
+<!-- Chapter 2 -->
+<section id="two" class="wrapper style1 fullscreen fade-up">
+	<div class="inner memo">
 		<h1>Carbon and silicon: contribution to a critique of political economy</h1>
 		<p></p>
 	</div>
 </section>
 
-<!-- Two -->
-<section id="two" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
+<!-- Chapter 3 -->
+<section id="three" class="wrapper style1 fullscreen fade-up">
+	<div class="inner memo">
 		<h1>Infrasomatization, Really Smart Cities and urban metabolism</h1>
 		<p></p>
 	</div>
 </section>
 
-<!-- Three -->
-<section id="three" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
+<!-- Chapter 4 -->
+<section id="four" class="wrapper style1 fullscreen fade-up">
+	<div class="inner memo">
 		<h1 class="major">POV and locality By Mitra Azar</h1>
 		<p>Draft contribution for the collective writing run by Bernard Stielger towards the
 		publishing of a memorandum for Geneva 2020 ONU gathering. The chapter of the
@@ -132,16 +132,17 @@ navigation:
 </div>
 </section>
 
-<!-- Two -->
-<section id="four" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
+<!-- Chapter 5 -->
+<section id="five" class="wrapper style1 fullscreen fade-up">
+	<div class="inner memo">
 		<h1>Social sculpture and contributive research: knowledge, art and technology</h1>
 		<p></p>
 	</div>
 </section>
 
-<section id="five" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
+<!-- Chapter 6 -->
+<section id="six" class="wrapper style1 fullscreen fade-up">
+	<div class="inner memo">
 		<h1>Contributory economy or economy of contribution</h1>
 		<p></p>
 	</div>
